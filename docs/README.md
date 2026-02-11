@@ -1,7 +1,7 @@
 **GF‑48 SDK**
 
 A clean, simulator‑agnostic SDK for the GoFlight GF‑48 hardware module.
-This library provides a modern, dependency‑injected architecture for reading HID reports, mapping them into strongly‑typed hardware state, and reacting to changes in real time. No simulator assumptions. No legacy baggage. Just hardware → state → events.
+This library provides a modern, dependency‑injected architecture for reading HID reports, mapping them into strongly‑typed hardware state, and reacting to changes in real time. No simulator assumptions. Just hardware → state → events.
 
 **Features**
 - Fully simulator‑agnostic
