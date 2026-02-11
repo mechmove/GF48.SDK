@@ -1,0 +1,4 @@
+09F3;vendor ID for goflight GF 48
+0028;product ID
+GoFlight GF 48 Rotary and Switch;name to display
+1;1 = Real displays, 2 = fake
