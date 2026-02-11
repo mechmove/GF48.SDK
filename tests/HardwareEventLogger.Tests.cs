@@ -26,13 +26,11 @@ internal static class HardwareEventLoggerTests
 
 		services.AddSingleton<GF48ProtocolHandler>();
 		services.AddSingleton<GF48Device>();
-		services.AddSingleton<HardwareState>();
 
 		var provider = services.BuildServiceProvider();
 
 		var protocol = provider.GetRequiredService<GF48ProtocolHandler>();
 		var device = provider.GetRequiredService<GF48Device>();
-		var HardwareState = provider.GetRequiredService<HardwareState>();
 
 		protocol.ReportReceived += report =>
 		{
