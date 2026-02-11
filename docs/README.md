@@ -39,8 +39,6 @@ A simple, immutable snapshot of all GF‑48 controls:
 - Btn1–Btn8 (booleans)
 Snapshots are cloned to prevent accidental mutation.
 
-**Note, all code already exists, what follows are explanations**
-
 **Device Selection (Real vs. Fake)**
 The SDK uses a clean DI pattern to select the correct device at runtime:
 services.AddSingleton<IGoFlightModules, FakeGoFlight>();
