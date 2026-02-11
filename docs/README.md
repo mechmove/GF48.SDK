@@ -68,11 +68,13 @@ GF48 Module
 Comments can be added using ; — they are stripped automatically.
 
 **Examples**
+
 **1. Hardware Event Logger**
 Logs raw HID reports and decoded hardware state:
 - Raw HID → UsbHid/HidEvents.txt
 - State changes → DeviceEvents/EventLog.txt
 Useful for debugging and reverse‑engineering.
+
 **2. Display Writer**
 Writes LED patterns (0–255) to the GF‑48 indicators:
 for (int pos = 0; pos <= 255; pos++)
