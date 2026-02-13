@@ -4,8 +4,7 @@ If you’re working with the eight LEDs on the GF‑48, remember that the values
 
 **A few practical things to keep in mind:**
 
-Track the whole LED state, not just one light at a time
-The hardware won’t maintain state for you. If you want the LEDs to behave like the real aircraft, you’ll need to keep a running bitmask of all eight LEDs and update it as a group.
+Track the whole LED state, not just one light at a time. The hardware won’t maintain state for you. If you want the LEDs to behave like the real aircraft, you’ll need to keep a running bitmask of all eight LEDs and update it as a group.
 
 **Simulator logic matters more than button logic**
 
